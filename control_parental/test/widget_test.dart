@@ -5,7 +5,7 @@ import 'package:control_parental/main.dart';
 void main() {
   testWidgets('App inicializa correctamente', (WidgetTester tester) async {
     // Usamos ProviderScope y SleepDomeApp
-    await tester.pumpWidget(const ProviderScope(child: SleepDomeApp()));
+    await tester.pumpWidget(const ProviderScope(child: LunitaApp()));
     
     // Verificamos que al menos la estructura base carga
     expect(find.text('Inicio'), findsWidgets);
