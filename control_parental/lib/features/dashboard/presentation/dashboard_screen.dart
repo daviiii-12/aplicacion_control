@@ -33,7 +33,7 @@ class DashboardScreen extends ConsumerWidget {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: const [
                         Text(
-                          'DreamDome',
+                          'Mimosa',
                           style: TextStyle(
                             fontFamily: 'Nunito',
                             fontSize: 28,
@@ -282,7 +282,7 @@ class _DeviceHeroCard extends StatelessWidget {
           const SizedBox(height: 14),
 
           const Text(
-            'Mi DreamDome',
+            'Mimosa',
             style: TextStyle(
               fontFamily: 'Nunito',
               fontSize: 20,
@@ -319,7 +319,7 @@ class _DeviceHeroCard extends StatelessWidget {
                 ),
               ),
               child: Text(
-                isOn ? 'Apagar DreamDome' : 'Encender DreamDome',
+                isOn ? 'Apagar Mimosa' : 'Encender Mimosa',
                 style: const TextStyle(
                   fontSize: 15,
                   fontWeight: FontWeight.w700,
