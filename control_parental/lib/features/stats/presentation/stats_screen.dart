@@ -162,7 +162,7 @@ class _ChartCard extends StatelessWidget {
                   enabled: true,
                   touchTooltipData: BarTouchTooltipData(
                     tooltipBgColor: AppTheme.surfaceAlt,
-                    getTooltipItem: (group, _, rod, __) {
+                    getTooltipItem: (group, _, rod, _) {
                       return BarTooltipItem(
                         '${rod.toY.toStringAsFixed(1)}h',
                         const TextStyle(
